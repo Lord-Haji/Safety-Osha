@@ -548,3 +548,6 @@ if (AppOptions.testmode) {
 	Bot.connect();
 	Bot.startConnectionTimeOut();
 }
+
+	// Startup our web server.
+	require("./web-server");

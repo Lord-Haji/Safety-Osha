@@ -1,0 +1,280 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,700);
+/* Default */
+
+ol,
+ul {
+    list-style: none;
+}
+body {
+    background: #e8eaf6;
+    font-family: ubuntu, sans;
+    font-size: 10pt;
+}
+
+.container {
+    margin-left: 5%;
+    margin-right: 5%;
+    overflow: auto;
+    padding: 5px;
+    background: white;
+    height: 100%;
+}
+h1 {
+    text-align: center;
+    background: #ec5991;
+    color: white;
+    padding: 7px;
+    margin: 6px 0px 8px;
+    height: 100%;
+    flex: 1;
+    margin-top: 1.5%;
+    margin-left: -1%;
+    border-radius: 15px 50px 40px 5px;
+    border: 10px solid #ec5991;
+}
+h2 {
+    margin: 0px;
+    color: #ec5991;
+}
+/* End Default */
+
+/* Command List */
+
+.commandblock {
+    min-height: 20px;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+.note {
+    font-size: 9pt;
+    opacity: 0.7;
+}
+.helptopic {
+    margin-left: 10px;
+    color: #4F4F4F;
+}
+.helptopic span {
+    font-weight: bold;
+}
+.quotes {
+    margin-left: 6px;
+    overflow: auto;
+}
+.quotes p {
+    margin: 1px 0px 4px;
+    opacity: 0.87;
+}
+.analyzer {
+    overflow: auto;
+}
+.analyzer li {
+    margin: 1px 0px 4px;
+    font-size: 9pt;
+    opacity: 0.87;
+}
+/* End Command List */
+
+/* Data pages */
+
+th {
+    font-size: 28px;
+    background-color: #ec5991;
+    color: white;
+}
+th,
+td {
+    border-bottom: 1px solid #ddd;
+}
+td {
+    font-size: 18px;
+    text-align: center;
+}
+tr:hover {
+    background-color: #eaebfb
+}
+table {
+    overflow: auto;
+    margin: auto;
+    width: 50%;
+}
+/* End Data Pages */
+
+/* Grid System */
+/*  SECTIONS  */
+
+.section {
+    clear: both;
+    padding: 0px;
+    margin: 0px;
+}
+/*  COLUMN SETUP  */
+
+.col {
+    display: block;
+    float: left;
+    margin: 1% 0 1% 1.6%;
+}
+.col:first-child {
+    margin-left: 0;
+}
+/*  GROUPING  */
+
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+}
+.group:after {
+    clear: both;
+}
+.group {
+    zoom: 1;
+    /* For IE 6/7 */
+}
+/*  GRID OF THREE  */
+
+.span_3_of_3 {
+    width: 100%;
+}
+.span_2_of_3 {
+    width: 66.13%;
+}
+.span_1_of_3 {
+    width: 32.26%;
+}
+/*  GO FULL WIDTH BELOW 980 PIXELS */
+
+@media only screen and (max-width: 980px) {
+    .col {
+        margin: 1% 0 1% 0%;
+    }
+    .span_3_of_3,
+    .span_2_of_3,
+    .span_1_of_3 {
+        width: 100%;
+    }
+}
+/* End Grid System */
+
+/* Header */
+
+header {
+    display: flex;
+}
+header a {
+    display: inline-block;
+    color: #f2f2f2;
+    float: right;
+    padding: 0 20px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+#top-nav {
+    display: none;
+    margin-top: -2%;
+}
+@media screen and (min-width: 900px) {
+    #top-nav {
+        display: block;
+        width: 70%;
+    }
+}
+@media screen and (min-width: 1600px) {
+    #top-nav {
+        display: block;
+        width: 40%;
+    }
+}
+#top-nav li {
+    float: left;
+}
+#top-nav li a {
+    float: left;
+    display: block;
+    padding: 0 2px;
+}
+#top-nav li a span {
+    display: none;
+}
+a#top-nav-green {
+    background: url(http://i.imgur.com/ym7qE0r.png) no-repeat center bottom;
+    width: 179px;
+    height: 150px;
+}
+a#top-nav-red {
+    background: url(http://i.imgur.com/exY1FtO.png) no-repeat center bottom;
+    width: 168px;
+    height: 150px;
+}
+a#top-nav-blue {
+    background: url(http://i.imgur.com/nXIg47Q.png) no-repeat center bottom;
+    width: 167px;
+    height: 150px;
+}
+a#top-nav-green:hover,
+a#top-nav-green.current,
+a#top-nav-green:active {
+    height: 185px;
+}
+a#top-nav-red:hover,
+a#top-nav-red.current,
+a#top-nav-red:active {
+    height: 185px;
+}
+a#top-nav-blue:hover {
+    height: 185px;
+}
+/* End Header */
+
+/* Other */
+
+footer {
+    text-align: center;
+    color: #ec5991;
+}
+footer a:link {
+    color: #ec5991;
+}
+footer a:visited {
+    color: #ec5991;
+}
+blockquote {
+    quotes: "\201C""\201D""\2018""\2019";
+    margin: 0 auto;
+    width: 60%;
+}
+blockquote:before {
+    color: #ec5991;
+    content: open-quote;
+    font-size: 2.5em;
+    line-height: 0.1em;
+    margin-right: 0.20em;
+    vertical-align: -0.4em;
+}
+blockquote:after {
+    color: #ec5991;
+    content: close-quote;
+    font-size: 2.5em;
+    line-height: 0.1em;
+    margin-left: 0.20em;
+    vertical-align: -0.4em;
+}
+blockquote p {
+    display: inline;
+    color: #b3b3b3;
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size: 1.5em;
+}
+.well {
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+}
+
+/* End Other */
