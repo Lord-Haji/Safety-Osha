@@ -4,7 +4,7 @@
 Installation
 ------------
 
-Pokémon Showdown Bot requires [node.js](http://nodejs.org/) to run. Install the last stable version if you do not have it.
+Safety Osha requires [node.js](http://nodejs.org/) to run. Install the last stable version if you do not have it.
 
 The first step is cloning this repo, install [Git](https://git-scm.com/) if you have not it and use the following command on shell console:
 ```
