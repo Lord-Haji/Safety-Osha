@@ -1,4 +1,4 @@
-Pokemon Showdown Node Bot - Configuration Guide
+Safety Osha - Configuration Guide
 ====================
 
 This guide is a explanation of how to configure [Safety Osha](https://github.com/supersoniko/Safety-Osha) once installed.

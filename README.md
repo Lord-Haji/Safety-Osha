@@ -25,7 +25,7 @@ Now, to start the bot use:
 $ node bot
 ```
 
-if you have an old version of `Pokemon Showdown Node Bot` and you want to update it, you can use: 
+if you have an old version of `Safety Osha` and you want to update it, you can use: 
 ```
 git pull https://github.com/supersoniko/Safety-Osha.git
 ```
