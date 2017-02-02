@@ -1,7 +1,6 @@
 /*
-	Pokemon Showdown Bot, for NodeJS
+	Safety Osha
 
-	By: Ecuacion
 */
 
 try {

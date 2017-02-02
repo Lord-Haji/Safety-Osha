@@ -75,7 +75,7 @@ Giving yourself full access is a crucial step, because only if you have full acc
 To do this, in `exports.exceptions` you must add your user id (Your PS name without any character except numbers and lowercase letters), like in this example:
 ```js
 exports.exceptions = {
-	'ecuacion': true,
+	'niisama': true,
 	'excepteduser': true
 };
 ```
@@ -243,8 +243,8 @@ GoupChats (Optional)
 You can use this feature to set events (arrays of commands to be sent on certain circunstances). For example:
 
 ```js
-exports.groupchats['groupchat-ecuacion-test'] = {
-	toJoin: ['/join groupchat-ecuacion-test'],
+exports.groupchats['groupchat-niisama-test'] = {
+	toJoin: ['/join groupchat-niisama-test'],
 	onJoin: ['Hi guys!'],
 	onLeave: []
 };

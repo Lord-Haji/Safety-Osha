@@ -86,7 +86,7 @@ exports.exceptions = {
 * Example:
 *
 * exports.exceptions = {
-*	'ecuacion': true,
+*	'niisama': true,
 *	'excepted': true
 * };
 *
@@ -396,8 +396,8 @@ exports.groupchats = {};
 exports.groupChatTryJoinInterval = 60 * 1000;
 
 /* Test example
-exports.groupchats['groupchat-ecuacion-test'] = {
-	toJoin: ['/join groupchat-ecuacion-test'],
+exports.groupchats['groupchat-niisama-test'] = {
+	toJoin: ['/join groupchat-niisama-test'],
 	onJoin: ['Hi guys!'],
 	onLeave: []
 };
