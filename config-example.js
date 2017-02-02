@@ -402,3 +402,10 @@ exports.groupchats['groupchat-ecuacion-test'] = {
 	onLeave: []
 };
 */
+
+/*
+* Port use for the web server
+*/
+
+exports.webport = 8008;
+
