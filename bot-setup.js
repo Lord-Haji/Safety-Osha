@@ -4,7 +4,6 @@
  */
 
 try {
-	require('sugar');
 	require('colors');
 } catch (e) {
 	console.log('Installing dependencies...');

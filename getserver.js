@@ -3,14 +3,12 @@
 */
 
 try {
-	require('sugar');
 	require('colors');
 } catch (e) {
 	console.log('Installing dependencies...');
 	require('child_process').spawnSync('sh', ['-c', 'npm install --production'], {stdio: 'inherit'});
 }
 
-require('sugar');
 var colors = require('colors');
 var readline = require('readline');
 var sys = require('sys');

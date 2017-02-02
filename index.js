@@ -5,8 +5,6 @@
 */
 
 try {
-	require('sugar');
-
 	global.colors = require('colors');
 	global.sys = require('sys');
 	global.fs = require('fs');
