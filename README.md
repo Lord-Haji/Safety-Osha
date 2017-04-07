@@ -1,6 +1,8 @@
 ﻿Safety Osha
 ====================
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Lord-Haji/Safety-Osha.svg)](https://greenkeeper.io/)
+
 Installation
 ------------
 
